@@ -1,5 +1,9 @@
 # Snake-Deep-Q-Learning-TensorFlow
 
+Credit goes to aurelien-pedenn I built upon his repo here: https://github.com/aurelien-peden/Snake-Deep-Q-Learning-TensorFlow/tree/main
+
+Added 
+
 Deep Q-Learning implemented using TensorFlow 2.3.1 on a custom Snake game environment.
 
 ![](https://media.giphy.com/media/w038mWYadaQgpBFxMq/giphy.gif)
@@ -32,7 +36,7 @@ python agent.py
 
 The agent manages to play on its own decently, but there is room for improvements, here are the following things that could be implemented:
 
-* Building a CNN and feeding it with a stack of low-resolution images representing the current game state. Stacked frames are required so the CNN can get an overview of the current snake's direction.
+* Building a CNN and feeding it with a stack of low-resolution images representing the current game state. Stacked frames are required so the CNN can get an overview of the current snake's direction.(Which I implemented here on this repo)
 
 * Implementing an Actor-Critic algorithm. An Actor-Critic agent consists of two neural networks, one is the DQN (critic) trained using the agent's experiences, the other one is a policy net (actor), its role is to approximate the policy by relying on the action values estimated by the DQN. See the following paper for more information: [A survey of actor-critic reinforcement learning: standard and natural policy gradients](https://hal.archives-ouvertes.fr/hal-00756747/document).
 
