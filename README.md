@@ -2,7 +2,7 @@
 
 Credit goes to aurelien-pedenn I built upon his repo here: https://github.com/aurelien-peden/Snake-Deep-Q-Learning-TensorFlow/tree/main
 
-Added 
+Added CNN which further improved it's performance
 
 Deep Q-Learning implemented using TensorFlow 2.3.1 on a custom Snake game environment.
 
